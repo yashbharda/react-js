@@ -1,0 +1,35 @@
+.counter {
+  width: 400px;
+  margin: 100px auto;
+  text-align: center;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+}
+
+.counter h1 {
+  margin-bottom: 30px;
+}
+
+.counter h2 {
+  margin-bottom: 25px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.buttons button {
+  width: 60px;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.reset {
+  margin-top: 20px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
